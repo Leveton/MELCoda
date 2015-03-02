@@ -14,6 +14,16 @@
 		7A4C1ADA1AA4BE3900405BAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A4C1AD91AA4BE3900405BAD /* Images.xcassets */; };
 		7A4C1ADD1AA4BE3900405BAD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A4C1ADB1AA4BE3900405BAD /* LaunchScreen.xib */; };
 		7A4C1AE91AA4BE3A00405BAD /* MELCodaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4C1AE81AA4BE3A00405BAD /* MELCodaTests.m */; };
+		7A4C1AF41AA4C58400405BAD /* getPosts.js in Resources */ = {isa = PBXBuildFile; fileRef = 7A4C1AF21AA4C58400405BAD /* getPosts.js */; };
+		7A4C1AF51AA4C58400405BAD /* hideSections.js in Resources */ = {isa = PBXBuildFile; fileRef = 7A4C1AF31AA4C58400405BAD /* hideSections.js */; };
+		7A4C1AF81AA4DB5600405BAD /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4C1AF71AA4DB5600405BAD /* Post.m */; };
+		7A4C1AFB1AA4DEDF00405BAD /* PostsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4C1AFA1AA4DEDF00405BAD /* PostsTableViewController.m */; };
+		7A4C1B031AA4E73F00405BAD /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A4C1AFD1AA4E73F00405BAD /* back@2x.png */; };
+		7A4C1B041AA4E73F00405BAD /* back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A4C1AFE1AA4E73F00405BAD /* back@3x.png */; };
+		7A4C1B051AA4E73F00405BAD /* forward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A4C1AFF1AA4E73F00405BAD /* forward@2x.png */; };
+		7A4C1B061AA4E73F00405BAD /* forward@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A4C1B001AA4E73F00405BAD /* forward@3x.png */; };
+		7A4C1B071AA4E73F00405BAD /* refresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A4C1B011AA4E73F00405BAD /* refresh@2x.png */; };
+		7A4C1B081AA4E73F00405BAD /* refresh@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A4C1B021AA4E73F00405BAD /* refresh@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +50,18 @@
 		7A4C1AE21AA4BE3A00405BAD /* MELCodaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MELCodaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A4C1AE71AA4BE3A00405BAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A4C1AE81AA4BE3A00405BAD /* MELCodaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MELCodaTests.m; sourceTree = "<group>"; };
+		7A4C1AF21AA4C58400405BAD /* getPosts.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = getPosts.js; sourceTree = "<group>"; };
+		7A4C1AF31AA4C58400405BAD /* hideSections.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = hideSections.js; sourceTree = "<group>"; };
+		7A4C1AF61AA4DB5600405BAD /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		7A4C1AF71AA4DB5600405BAD /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		7A4C1AF91AA4DEDF00405BAD /* PostsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostsTableViewController.h; sourceTree = "<group>"; };
+		7A4C1AFA1AA4DEDF00405BAD /* PostsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostsTableViewController.m; sourceTree = "<group>"; };
+		7A4C1AFD1AA4E73F00405BAD /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		7A4C1AFE1AA4E73F00405BAD /* back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@3x.png"; sourceTree = "<group>"; };
+		7A4C1AFF1AA4E73F00405BAD /* forward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forward@2x.png"; sourceTree = "<group>"; };
+		7A4C1B001AA4E73F00405BAD /* forward@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forward@3x.png"; sourceTree = "<group>"; };
+		7A4C1B011AA4E73F00405BAD /* refresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refresh@2x.png"; sourceTree = "<group>"; };
+		7A4C1B021AA4E73F00405BAD /* refresh@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refresh@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +103,18 @@
 		7A4C1ACB1AA4BE3900405BAD /* MELCoda */ = {
 			isa = PBXGroup;
 			children = (
+				7A4C1AFC1AA4E73F00405BAD /* images */,
 				7A4C1AD01AA4BE3900405BAD /* AppDelegate.h */,
 				7A4C1AD11AA4BE3900405BAD /* AppDelegate.m */,
 				7A4C1AD31AA4BE3900405BAD /* ViewController.h */,
 				7A4C1AD41AA4BE3900405BAD /* ViewController.m */,
+				7A4C1AF61AA4DB5600405BAD /* Post.h */,
+				7A4C1AF71AA4DB5600405BAD /* Post.m */,
+				7A4C1AF91AA4DEDF00405BAD /* PostsTableViewController.h */,
+				7A4C1AFA1AA4DEDF00405BAD /* PostsTableViewController.m */,
 				7A4C1AD61AA4BE3900405BAD /* Main.storyboard */,
+				7A4C1AF21AA4C58400405BAD /* getPosts.js */,
+				7A4C1AF31AA4C58400405BAD /* hideSections.js */,
 				7A4C1AD91AA4BE3900405BAD /* Images.xcassets */,
 				7A4C1ADB1AA4BE3900405BAD /* LaunchScreen.xib */,
 				7A4C1ACC1AA4BE3900405BAD /* Supporting Files */,
@@ -117,6 +146,19 @@
 				7A4C1AE71AA4BE3A00405BAD /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A4C1AFC1AA4E73F00405BAD /* images */ = {
+			isa = PBXGroup;
+			children = (
+				7A4C1AFD1AA4E73F00405BAD /* back@2x.png */,
+				7A4C1AFE1AA4E73F00405BAD /* back@3x.png */,
+				7A4C1AFF1AA4E73F00405BAD /* forward@2x.png */,
+				7A4C1B001AA4E73F00405BAD /* forward@3x.png */,
+				7A4C1B011AA4E73F00405BAD /* refresh@2x.png */,
+				7A4C1B021AA4E73F00405BAD /* refresh@3x.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +241,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A4C1B061AA4E73F00405BAD /* forward@3x.png in Resources */,
+				7A4C1B051AA4E73F00405BAD /* forward@2x.png in Resources */,
 				7A4C1AD81AA4BE3900405BAD /* Main.storyboard in Resources */,
 				7A4C1ADD1AA4BE3900405BAD /* LaunchScreen.xib in Resources */,
 				7A4C1ADA1AA4BE3900405BAD /* Images.xcassets in Resources */,
+				7A4C1AF51AA4C58400405BAD /* hideSections.js in Resources */,
+				7A4C1B041AA4E73F00405BAD /* back@3x.png in Resources */,
+				7A4C1AF41AA4C58400405BAD /* getPosts.js in Resources */,
+				7A4C1B071AA4E73F00405BAD /* refresh@2x.png in Resources */,
+				7A4C1B031AA4E73F00405BAD /* back@2x.png in Resources */,
+				7A4C1B081AA4E73F00405BAD /* refresh@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +272,8 @@
 				7A4C1AD51AA4BE3900405BAD /* ViewController.m in Sources */,
 				7A4C1AD21AA4BE3900405BAD /* AppDelegate.m in Sources */,
 				7A4C1ACF1AA4BE3900405BAD /* main.m in Sources */,
+				7A4C1AF81AA4DB5600405BAD /* Post.m in Sources */,
+				7A4C1AFB1AA4DEDF00405BAD /* PostsTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
