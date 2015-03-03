@@ -112,7 +112,7 @@
         }
     }
     
-    self.postsWebView = [[WKWebView alloc]initWithFrame:CGRectZero];
+    self.postsWebView = [[WKWebView alloc]initWithFrame:CGRectZero configuration:config];
     NSURL *postsURL = [NSURL URLWithString:@"http://www.appcoda.com"];
     NSURLRequest *postsRequest = [NSURLRequest requestWithURL:postsURL];
     [self.postsWebView loadRequest:postsRequest];
@@ -130,7 +130,8 @@
 {
     if ([segue.identifier isEqualToString:@"recentPosts"])
     {
-        PostsTableViewController *vc = [segue destinationViewController];
+        UINavigationController *dest = (UINavigationController *)segue.destinationViewController;
+        PostsTableViewController *vc = (PostsTableViewController *)dest.topViewController;
         vc.posts = self.posts;
     }
 }
@@ -227,8 +228,6 @@
     if ([message.name isEqualToString:MessageHandler]) {
         
         id postList = message.body;
-        
-        NSLog(@"postList class: %@", [postList class]);
         
         if ([postList respondsToSelector:@selector(objectEnumerator)])
         {
